@@ -1,12 +1,13 @@
 //animacion de foto
 function bigImg(x) {
-  x.style.height = "100px";
-  x.style.width = "auto";
+    document.getElementById('foto').src='DSC_1541.JPG';
+    x.style.width = "auto";
 
 }
 
 function normalImg(x) {
   x.style.height = "350px";
+  document.getElementById('foto').src='2.png';
   x.style.width = "autopx";
 }
 
