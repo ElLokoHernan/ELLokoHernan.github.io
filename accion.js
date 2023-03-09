@@ -18,8 +18,14 @@ function myFunction() {
   }
 
   //ocultar
-  function ocultar(){
-    document.getElementById('contacto').style.display='none'
+  function ocultarEdu(){
+    document.getElementById('Educacion').style.display='none'
+  }
+  function ocultarTrab(){
+    document.getElementById('Trabajo').style.display='none'
+  }
+  function ocultarPerf(){
+    document.getElementById('Perfil').style.display='none'
   }
  //mostrar 
  function mostrarEdu(){

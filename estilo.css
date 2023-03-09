@@ -1,6 +1,6 @@
 body{
     /*display: block;*/
-    background-color: yellow;
+    background-color:RGB(0, 34, 49);
 }
 #foto{
     height: 350px;
@@ -26,17 +26,41 @@ body{
 }
 #info{
     display: flex;
+    padding: 2rem 3rem;
+    text-align: center;
+    color: #fff;
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 25px #222;
+    backdrop-filter: blur(10px);
 }
 #Educacion{
     display: none;
     text-align: inherit;
+    padding: 2rem 3rem;
+    text-align: center;
+    color: #fff;
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 25px #222;
+    backdrop-filter: blur(10px);
 
 }
 #Trabajo{
     display: none;
+    padding: 2rem 3rem;
+    text-align: center;
+    color: #fff;
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 25px #222;
+    backdrop-filter: blur(10px);
 }
 
 #Perfil{
+    padding: 2rem 3rem;
+    text-align: center;
+    color: #fff;
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 25px #222;
+    backdrop-filter: blur(10px);
     border: solid;
     display: none;
     text-align: inherit;
@@ -73,7 +97,11 @@ button{
     padding-right:150px;
     background-color:#FFD27D;
 }
-
+#Cerrar{
+    font-weight:300;
+    font-size:10px;
+    background-color:red;
+}
 
 .imagenes :hover {
     transition:all .5s ease-in-out;
