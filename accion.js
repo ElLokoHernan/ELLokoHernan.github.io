@@ -35,6 +35,9 @@ function myFunction() {
   function ocultarPerf(){
     document.getElementById('Perfil').style.display='none'
   }
+  function ocultarForm(){
+    document.getElementById('formulario').style.display='none'
+  }
  //mostrar 
  function mostrarEdu(){
     document.getElementById('Educacion').style.display='block'
@@ -45,4 +48,8 @@ function myFunction() {
 
   function mostrarPerf(){
     document.getElementById('Perfil').style.display='block'
+  }
+
+  function mostrarForm(){
+      document.getElementById('formulario').style.display='block';
   }

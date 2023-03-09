@@ -6,6 +6,7 @@
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='estilo.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='fordmulario.css'>
     <script src='accion.js'></script>
 </head>
 <body>
@@ -37,7 +38,7 @@
                                             </div>
                                             <div id="Experiencia Laboral">
                                             <button onclick="mostrarTrab('Trabajo')">Experiencia Laboral</button>
-                                           </div>
+                                            </div>
                                             <div id="Trabajo">
                                                 <p class="sub"><b>ID FOR IDEAS</b></p>
                                                 <p>equipo de Desarrolador Junior</p>
@@ -50,7 +51,7 @@
                                             <div id="Contacto">
 
                                             <button onclick="mostrarPerf('Perfil')">Perfil</button>
-                                        </div>
+                                            </div>
                                                  <div id="Perfil">
                                                     <p class="sub2"> PERFIL</p>
                                                     <P>Estudiante de 
@@ -69,18 +70,81 @@
                                                     <p> Linkedin : <a href="https://www.linkedin.com/in/hernan-blanco-348b29210/"> clik aqui</a></p>
                                                     <p>LUGAR <a href="https://www.google.com/maps/place/Empedrado,+Corrientes/data=!4m2!3m1!1s0x944f920b8fa06833:0x4c66cb02bc96a687?sa=X&ved=2ahUKEwjm0dKVxvL8AhV8rJUCHVlcB3gQ8gF6BAgIEAI">Empedrado-Corientes</a></p><br> </p>
                                                     <button onclick="ocultarPerf('Perfil')" id="Cerrar">ocultar</button>
-                                                </div>
+                                                 </div>
                                                 <div id="menu">
-                                                    <button onclick="mostrar('contacto')" id="demo">Contacto</button>
-                                                   </div>
-                                    
-                    </div>
+                                                    <button onclick="mostrarForm('contacto')" id="demo">Contacto</button>
+                                                </div>
+                                                <div id="formulario">
 
-                <div class="imagenes">
+                                                    <div class="formulario">      
+                                                      <h1>Formulario de contacto</h1>
+                                                        <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+                                                
+                                                
+                                                          <form action="submeter-formulario.hp" method="post">       
+                                                
+                                                            
+                                                                <p>
+                                                                  <label for="nombre" class="colocar_nombre">Nombre
+                                                                    <span class="obligatorio">*</span>
+                                                                  </label>
+                                                                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                                                                </p>
+                                                              
+                                                                <p>
+                                                                  <label for="email" class="colocar_email">Email
+                                                                    <span class="obligatorio">*</span>
+                                                                  </label>
+                                                                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                                                                </p>
+                                                            
+                                                                <p>
+                                                                  <label for="telefone" class="colocar_telefono">Teléfono
+                                                                  </label>
+                                                                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                                                                </p>    
+                                                              
+                                                                <p>
+                                                                  <label for="website" class="colocar_website">Sitio web
+                                                                  </label>
+                                                                    <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+                                                                </p>    
+                                                              
+                                                                <p>
+                                                                  <label for="asunto" class="colocar_asunto">Asunto
+                                                                    <span class="obligatorio">*</span>
+                                                                  </label>
+                                                                    <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                                                                </p>    
+                                                              
+                                                                <p>
+                                                                  <label for="mensaje" class="colocar_mensaje">Mensaje
+                                                                    <span class="obligatorio">*</span>
+                                                                  </label>                     
+                                                                                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                                                                </p>                    
+                                                              
+                                                                <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+                                        
+                                                                <p class="aviso">
+                                                                  <span class="obligatorio"> * </span>los campos son obligatorios.
+                                                                </p>          
+                                                               
+                                                          </form>
+                                                    </div>  
+                                                  </div>
+                                                
+
+                    </div>
+                                    
+                  
+
+                    <div class="imagenes">
                     <h2 id="subtitulo">OTROS INTERESES</h2>
                     <img src="R.jpg" id="fotos" img onmouseover="AnimacionFotos(this)" >
                     <img src="r1.jpg" id="fotos" img onmouseover="AnimacionFotos(this)">
                     <img src="r2.jpg" id="fotos" img onmouseover="AnimacionFotos(this)" onmouseout="TamañoNormal(this)">
+                    </div>
                 </div>
 </body>
 </html>
