@@ -22,12 +22,12 @@ function myFunction() {
   }
  //mostrar 
  function mostrarEdu(){
-    document.getElementById('Educacion').style.display='flex'
+    document.getElementById('Educacion').style.display='block'
   }
   function mostrarTrab(){
-    document.getElementById('Trabajo').style.display='flex'
+    document.getElementById('Trabajo').style.display='block'
   }
 
   function mostrarPerf(){
-    document.getElementById('Perfil').style.display='flex'
+    document.getElementById('Perfil').style.display='block'
   }

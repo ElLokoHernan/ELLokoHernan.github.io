@@ -48,4 +48,8 @@ body{
     display: block;
     margin: 30px, 30px, 30px, 30px;
     border: solid;
+    text-align: center;
+}
+button{
+    color: tomato;
 }
