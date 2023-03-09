@@ -6,9 +6,17 @@ function bigImg(x) {
 }
 
 function normalImg(x) {
-  x.style.height = "350px";
   document.getElementById('foto').src='2.png';
+  x.style.height = "350px";
   x.style.width = "autopx";
+}
+
+function AnimacionFotos(x){
+    x.style.height = "autopx";
+}
+
+function TamañoNormal(x){
+    x.style.height = "autopx";
 }
 
 
